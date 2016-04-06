@@ -26,3 +26,9 @@ kramdown:
   hard_wrap: false
 
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+
+gems:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
